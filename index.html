@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cachipun</title>
+    <link rel="icon" type="image/png" href="assets/img/faviconlori.svg">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
+
+</head>
+
+<body>
+    <body>
+        <header>
+            <h1>Piedra, papel o tijera!</h1>
+        </header>
+        <div class="contenido1">
+            <div class="puntajes">
+                <div class="usericon" id="userPoints"><img src="assets/img/IQ.png" alt="usuario">
+                    <h3 id="userScore">0</h3>
+                </div>
+                <h1>V/S</h1>
+                <div class="cpuicon" id="cpuPoints"><img src="assets/img/Robot.png">
+                    <h3 id="cpuScore">0</h3>
+                </div>
+            </div> <!-- cierre puntajes -->
+        </div><!--contenido1 div-->
+    
+        <div class="contenido2">
+            <div class="juego">
+                <div class="userselec">
+                    <img id="userChoice" src="assets/img/papeluser.png">
+                    <!-- cierre user selection -->
+                </div>
+                <div class="elige"><img id="cpuChoice" src="assets/img/piedcpu.png">
+                    <h4>Elige una opción</h4>
+                    <button onclick="play('piedra')">Piedra</button>
+                    <button onclick="play('papel')">Papel</button>
+                    <button onclick="play('tijera')">Tijera</button>
+                </div>
+                <div class="cpuselec"><img id="cpuChoiceImg" src="assets/img/tijecpu.png"></div>
+                <!--cierre contenido2-->
+            </div>
+            <!-- cierre juegos -->
+        </div>
+    
+        <footer>
+            <button class="start" onclick="resetGame()">Empieza de nuevo</button>
+        </footer>
+        
+    </footer>
+<script src="assets/script/script.js"></script>
+</body>
+
+</html>

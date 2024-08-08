@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+html {
+    font-size: 100%;
+    /*font size 16px*/
+}
+
+@font-face {
+    font-family: Ginto;
+    src: url(fonts/ABCGintoNordVariable-Trial-BF651b7b79432af.woff) format(woff);
+    font-weight: 800;
+}
+
+
+body {
+    
+    background-color: #FEFF7E;
+    
+}
+
+header {
+    width: 100%;
+    color: #6C69FF;
+    text-align: center;
+    font-family: Ginto;
+    font-size: x-large;
+}
+
+.contenido1 {
+   font-family: Ginto;
+   color: #3c3a92;
+    background-color: #F1F260;
+    border-radius: 20px;
+}
+
+.contenido1 img {
+    height: 100px;
+}
+
+.puntajes{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#points{
+   text-align: center;
+}
+
+.contenido2 {
+   margin-top: 20px;
+   padding-top: 1rem;
+    background-color: #F1F260;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.contenido2 img {
+    height: 100px;
+}
+
+.juego{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+footer{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.start{
+    color: aliceblue;
+    font-size: large;
+    background-color: fuchsia;
+    border-radius: 10%;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.start:hover {
+    background-color: rgb(175, 0, 175);
+  }
+.start:active {
+    background-color: rgb(175, 0, 175);
+  }
+
+
